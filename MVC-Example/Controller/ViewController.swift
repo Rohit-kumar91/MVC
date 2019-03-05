@@ -70,6 +70,9 @@ extension ViewController: UITableViewDataSource {
         
         cell.textLabel?.text = newsArticles.title
         cell.detailTextLabel?.text = newsArticles.author
+        
+        
+        
         return cell
     }
     

@@ -25,6 +25,7 @@ class NewsArticleCell: UITableViewCell {
         super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
         
         textLabel?.numberOfLines = 0
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

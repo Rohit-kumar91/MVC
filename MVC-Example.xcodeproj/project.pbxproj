@@ -17,6 +17,7 @@
 		B75B9269222D7C7B0082A5F0 /* NewsArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75B9268222D7C7B0082A5F0 /* NewsArticleCell.swift */; };
 		B75B926C222D7E3D0082A5F0 /* WebServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75B926B222D7E3D0082A5F0 /* WebServiceClient.swift */; };
 		B75B926E222D80FB0082A5F0 /* ServiceResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75B926D222D80FB0082A5F0 /* ServiceResponseMapper.swift */; };
+		B75B9271222E19C60082A5F0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75B9270222E19C60082A5F0 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B75B9268222D7C7B0082A5F0 /* NewsArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleCell.swift; sourceTree = "<group>"; };
 		B75B926B222D7E3D0082A5F0 /* WebServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceClient.swift; sourceTree = "<group>"; };
 		B75B926D222D80FB0082A5F0 /* ServiceResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResponseMapper.swift; sourceTree = "<group>"; };
+		B75B9270222E19C60082A5F0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		B75B924D222D78480082A5F0 /* MVC-Example */ = {
 			isa = PBXGroup;
 			children = (
+				B75B926F222E19990082A5F0 /* Extension */,
 				B75B926A222D7E040082A5F0 /* Networking */,
 				B75B9263222D79A70082A5F0 /* Views */,
 				B75B9261222D797A0082A5F0 /* Utility */,
@@ -117,6 +120,14 @@
 				B75B926D222D80FB0082A5F0 /* ServiceResponseMapper.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		B75B926F222E19990082A5F0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B75B9270222E19C60082A5F0 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				B75B926C222D7E3D0082A5F0 /* WebServiceClient.swift in Sources */,
 				B75B9267222D7B750082A5F0 /* NewsArticles.swift in Sources */,
 				B75B9265222D7A9C0082A5F0 /* Constant.swift in Sources */,
+				B75B9271222E19C60082A5F0 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
